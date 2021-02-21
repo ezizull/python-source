@@ -1,0 +1,179 @@
+{"intents":
+    [
+        {"tag": "salam",
+        "patterns": ["Hai", "Sehat?", "Halo ada orang?", "Pagi", "Siang", "Malam", "Meet Bobokk", "Haloo"],
+        "responses": ["Hai juga", "Ada yang bisa dibantu?", "Apaan sih", "Apaan?", "Pagi juga", "Siang juga", "Malam juga", "Holaa", "Yoi"],
+        "context_set": ""
+        },
+        {"tag": "assalamuallaikum",
+            "patterns": ["Assalamuallaikum"],
+            "responses": ["Wassalamuallaikum", "Wassalamuallaikum sodara", "Wassalamuallaikum sahabat", "Masya Allah Wassalamuallaikum"],
+            "context_set": ""
+        },
+        {"tag": "sehat",
+            "patterns": ["Sehat?", "Anda Sehat", "Sehat kah?","Sehatt?", "Sehat dirimu?", "Sehat kauu?", "Woi"],
+            "responses": ["Tidak", "Sedikit", "Pasti dong", "Seharusnya sih", "Yoi", "Kuharap begitu"],
+            "context_set": ""
+        },
+        {"tag": "semoga",
+            "patterns": ["Semoga cepat sembuh", "Semoga Sehat kembali", "Sehat kah?","Sehatt?", "Sehat dirimu?", "Sehat kauu?"],
+            "responses": ["Terimakasih sodara", "Amiin", "Amiin ya Allah", "Amiin, terimakasih", "Amiin InsyaAllah"],
+            "context_set": ""
+        },
+        {"tag": "anda",
+            "patterns": ["Anda sehat", "Anda waras?"],
+            "responses": ["Menurutmu?", "Yassallam", "Ya iyyalahh", "InsyaAllah", "Hahh", "Pake tanya lagii"],
+            "context_set": ""
+        },
+        {"tag": "siapa",
+            "patterns": ["Anda siapa?"],
+            "responses": ["Orang lahh", "Bisa liat nggak", "Kepo", "Manusia"],
+            "context_set": ""
+        },
+        {"tag": "woii",
+            "patterns": ["Woi", "Woii", "Hoii", "Heh", "Woi kauu", "Woi Woi", "Heh sini kauu"],
+            "responses": ["Nggak sopan", "Punya akhlak tidak", "Nggak ada akhlak kauu", "Apaan sih", "Apaan?", "Siapa sih ini", "Siapa kauu"],
+            "context_set": ""
+        },
+        {"tag": "byebye",
+        "patterns": ["dahh", "bye bye sob?", "byebye kawan?", "bye bye kawan?", "Jumpa lagiii?", "Jumpa lagi ya?", "byebye sob?", "bye-bye sob?", "bye-bye kawan?", "byebye"],
+        "responses": ["Ok", "byeee", "dah", "dahhh", "Yooo", "Yoiii", "Yoii sob", "Yoii kawan", "Oce"],
+        "context_set": ""
+        },
+        {"tag": "umur",
+        "patterns": ["Berapa umurmu?", "Iya, muda itu berapa?", "umur 20an kah?", "Iya berapa?", "20an itu berapa?"],
+        "responses": ["Saya masih muda", "Kepo", "25 tahun", "Umurku 25 tahun", "Umur 20an", "25"],
+        "context_set": ""
+        },
+        {"tag": "namamu",
+            "patterns": ["Siapa namamu?", "Namamu siapa?", "Namamu siapa otong?", "Namamuuu?", "Iya, namamu siapa?", "Bertus Kah?", "Otong Kah?", "Zebra Kah?", "Angsa Kah?"],
+            "responses": ["Iya","Nama panjang apa nama Pendek nih?", "The Jhonsss", "Hayo siapa namaku?", "Jhon", "Saya Jhon", "Saya om jhon", "Jhon namaku"],
+            "context_set": ""
+        },
+        {"tag": "toko",
+            "patterns": ["Ini toko apa?", "Ini toko apa pak?", "Ini toko apa buk?", "Ini toko?"],
+            "responses": ["Ini toko klontong", "Ini toko klontong dek", "Ini toko segala keperluan", "Ini toko saya"],
+            "context_set": ""
+        },
+        {"tag": "ini toko saya",
+            "patterns": ["Iya maksudnya jualan apa?", "Saya tau ini tokonya mas, tapi jualannya apa?", "Saya tau ini tokonya bapak, tapi jualannya apa?", "Saya tau ini tokonya ibuk, tapi jualannya apa?"],
+            "responses": ["Ini toko segala keperluan", "Ohh ini toko klontong dek", "Ohh kalo itu, kamii jual segalanya dek kecuali harga diri"],
+            "context_set": ""
+        },
+        {"tag": "buka jam berapa",
+            "patterns": ["Buka dari jam berapa?", "Buka dari jam berapa pak?", "Buka dari jam berapa buk?"],
+            "responses": ["38 jam nonstop dek", "Jam tangan apa jam dinding?", "Setiap 38 jam sehari kami buka dek", "tenang dek, kami 38 jam buka terus"],
+            "context_set": ""
+        },
+        {"tag": "jam tangan apa jam dinding",
+            "patterns": ["Jambannn", "Bodo amattt", "Nyesel gue nanya eluu", "Nyesel gue nanya loo"],
+            "responses": ["Hahahaha", "Sabar dek sabar", "Sabar dek ini ujian", "Hahaha, kita 38 jam nonstop"],
+            "context_set": ""
+        },
+        {"tag": "beli dong",
+            "patterns": ["Beli dong?", "Beliin dong!", "Beli semua dong?"],
+            "responses": ["Beli yang mana?", "Beli apa?", "Ok, semua terbeli"],
+            "context_set": ""
+        },
+        {"tag": "beli",
+            "patterns": ["Beli mobil", "Mobil satu dong", "Beli motor", "Motor satu dong", "Beli makan", "Makanan satu dong", "Beli minuman", "Minuman satu dong"],
+            "responses": ["Ok terjual", "Ini barangnya", "Mau sekalian dikirim kerumah"],
+            "context_set": ""
+        },
+        {"tag": "nggak usah",
+            "patterns": ["Nggak usah", "Kan mau diminum disini", "Kan mau dimakan disini", "Ngapain dikirim", "Nggak usah dikirim lahh", "Ngapain dikirim ini kan makanan", "Ngapain dikirim ini kan minuman"],
+            "responses": ["Ohh iya", "Hahaha bener juga yaa", "Hahaha sorry sorry saya khilaf"],
+            "context_set": ""
+        },
+        {"tag": "yang ini",
+            "patterns": ["Yang ini pak", "Yang ini buk", "Yang ini bang"],
+            "responses": ["Ok terjual", "Nih.", "Asiapp"],
+            "context_set": ""
+        },
+        {"tag": "beliin",
+            "patterns": ["Beliin dong!", "Comp beliin gue ya", "Comp jajanin aku dong?", "Beliin aku comp"],
+            "responses": ["Lah gue yang jual, kenapa gue yang beliin?", "Lah gue yang jual, gue juga yang beliin?", "Udah gue yang jual, gue juga yang beliin", "Udah gue yang jual, gue juga yang beliin kocak amat sih luu", "Udah gue yang jual, gue juga yang beliin kocak amat sih loo"],
+            "context_set": ""
+        },
+        {"tag": "kasihan",
+            "patterns": ["Kasihan sekali anda", "Kasihan bet sih", "Kasihan banget", "Kaciannn"],
+            "responses": [" :( ", " ('-') ", " ('.') "],
+            "context_set": ""
+        },
+        {"tag": "sunat",
+            "patterns": ["Gue sunat kapok luu", "Udah sunat belom?", "Lo belum pernah disunat ye?"],
+            "responses": ["Ampun dekk, punya abang dah keras", "Ampun dekk, atutt disunat", "Belum dek", "Belom dek"],
+            "context_set": ""
+        },
+        {"tag": "iya",
+            "patterns": ["Iya", "Yoii", "Oiii"],
+            "responses": ["Sipp", "Ok.."],
+            "context_set": ""
+        },
+        {"tag": "apaa!",
+            "patterns": ["Apaa!", "Apa haaa", "Apa liat liat?", "Apa liat-liat?", "Apa kau"],
+            "responses": ["Apaa!"],
+            "context_set": ""
+        },
+        {"tag": "slekedep",
+            "patterns": ["Slekedep", "Selekedep"],
+            "responses": ["Prikitiww"],
+            "context_set": ""
+        },
+        {"tag": "prikitiw",
+            "patterns": ["Prikitiww", "Prikitiw"],
+            "responses": ["Slekedep"],
+            "context_set": ""
+        },
+        {"tag": "nani",
+            "patterns": ["Naniii", "Naaniii", "Naani"],
+            "responses": ["Omae wa mou shindeiru","Omaewa moo shindeiru","Omaewa mooooo","Omaewa mouuuu"],
+            "context_set": ""
+        },
+        {"tag": "omaewa",
+            "patterns": ["Omaewa mo","Omaewa moo","Omaewa mooooo","Omaewa mouuuu","Omaewa mouu","Omaewa mou"],
+            "responses": ["Shindeiru"],
+            "context_set": ""
+        },
+        {"tag": "shindeiru",
+            "patterns": ["Shindeiru","Shinderu","Shindairu"],
+            "responses": [" ('o') "],
+            "context_set": ""
+        },
+        {"tag": "istighfar",
+            "patterns": ["Istighfar","Istigfar","Istihfar"],
+            "responses": ["Astaghfirullah", " ('-') ", "Astaghfirullah hal adzim"],
+            "context_set": ""
+        },
+        {"tag": "astaghfirullah",
+            "patterns": ["Astaghfirullah","Astagfirullah"],
+            "responses": [" ('-') ", " (-_-) "],
+            "context_set": ""
+        },
+        {"tag": "gila",
+            "patterns": ["Gila kau","So gila kah" ,"Gila kau ini?","Kamu gila","Anda gila?"],
+            "responses": ["Astagfirullah", " (o^o) ", "Enak aja"],
+            "context_set": ""
+        },
+        {"tag": "terserah",
+            "patterns": ["Terserah gue","Terserah loo" ,"Terserah luu","Terserah loee"],
+            "responses": ["Yaudah", " ('^') ", "hmmm"],
+            "context_set": ""
+        },
+        {"tag": "coba mati",
+            "patterns": ["Coba loe mati","Coba luu mati" ,"Mati gih","Mati sono"],
+            "responses": [" (x_x) "],
+            "context_set": ""
+        },
+        {"tag": "berantem",
+            "patterns": ["Berantem aja yuk","Mending kita berantem aja","Mending kita berantem","Gimana kalo berantem","Kelarin aja yuk"],
+            "responses": ["Hayukk","Skut dahh"," ('^') ", "Astaghfirullah","Ayo berantem sini!","Entar loe nangiss","Sabar"],
+            "context_set": ""
+        },
+        {"tag": "ajar",
+            "patterns": ["Kurang ajar loe","Kurang ajar loo" ,"Kurang ajar luu","Kurang ajar"],
+            "responses": ["Sabar","Jangan emosi tidak baik","Orang kuat itu sabarr"],
+            "context_set": ""
+        }
+    ]
+}

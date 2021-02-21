@@ -1,0 +1,3 @@
+data text buatan python
+kita di baris kedua jhon
+jos!! baris buatan append mode
