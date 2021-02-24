@@ -3,7 +3,7 @@ import tkinter as tk
 
 
 wn = turtle.Screen()
-wn.title("Pong by @TokyoEdTech")
+wn.title("Ping-Pong")
 wn.bgcolor("#89E8FD")
 wn.setup(width=640, height=360)
 wn.tracer(0)
